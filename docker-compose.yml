@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  roob:
+    container_name: roob
+    build: .
+    volumes:
+      - .:/src
